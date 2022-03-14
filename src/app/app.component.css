@@ -1,0 +1,46 @@
+.list{
+    background-color: white;
+    padding: 15px;
+    box-sizing: border-box; /* border-box faz com que a altura não seja calculada com a margem e a borda do elemento */
+
+    width: 500px;
+    height: 500px;
+    border-radius: 0 30px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs{
+display: flex;
+height: 30px;
+
+margin-bottom: 30px;
+}
+
+.inputs input[type="text"]{
+    flex-grow: 1; /* flex-grow serve para esse elemento pegue o espaço todo do elemento pai dele, faz com que o elemento cresça */
+    margin-right: 10px;
+}
+
+.itemAd{
+flex-grow: 1;
+
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer button{
+    margin-left: 173px;
+}
+
+
+input {
+    height: 20px;
+    width: 200px;
+}
+
